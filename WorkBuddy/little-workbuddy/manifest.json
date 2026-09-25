@@ -1,0 +1,64 @@
+{
+  "name": "My Little WorkBuddy 🌷",
+  "short_name": "WorkBuddy",
+  "description": "你的数字小桌面：待办、日程、专注、学习、习惯、心情、AI 助手与目标旅程。一点一点，慢慢变好。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f3fb",
+  "theme_color": "#8f6fc9",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["productivity", "lifestyle", "education"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "新增待办",
+      "short_name": "待办",
+      "description": "快速添加一项待办",
+      "url": "./index.html?view=todo",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "开始专注",
+      "short_name": "专注",
+      "description": "开始一个番茄钟",
+      "url": "./index.html?view=timer",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "问问 AI",
+      "short_name": "AI",
+      "description": "和 Buddy AI 聊一聊",
+      "url": "./index.html?view=buddyai",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
